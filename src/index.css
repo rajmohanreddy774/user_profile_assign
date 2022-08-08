@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 70.5%;
+  scroll-behavior: smooth;
+}
+
+.container {
+  transform: translateX(-30%);
+  margin-left: 50%;
+  margin-top: 7rem;
+ 
+}
+
+.container__input {
+  border: none;
+  background-color: orangered;
+  padding: 1rem 1.8rem;
+  color: #e2e0e0;
+  border-radius: 10rem;
+  margin-right: 2.5rem;
+}
+
+.container__submit {
+  border: none;
+  background-color: grey;
+  padding: 1rem 1.8rem;
+  color: #e2e0e0;
+  border-radius: 10rem;
+  cursor: pointer;
+}
+
+.container__submit:focus {
+  outline: none;
+}
+
+.files__entity {
+  background-color: lightgray;
+  display: inline-block;
+  padding: 5px 10px;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
