@@ -10,9 +10,17 @@
 <body>
     <main class="container">
         <div class="container__upload-Profile">
+          <h1>USER PROFILE</h1>
           <form action="/api/uploadUser" enctype="multipart/form-data" method="post">
-            <input type="file" class="container__input" id="myProfile" name="myProfile" />
-            <input class="container__submit" type="submit" />
+            <input type="text" class="container__input1"  name="myName" placeholder="Enter Name"  />
+            <br>
+             <input type="text" class="container__input1"  name="myMobile" placeholder="Enter Mobile" />
+            <br>
+             <input type="text" class="container__input1"  name="myAddress" placeholder="Enter Address" />
+            <br>
+          <input type="file" class="container__input" id="myProfile" name="myProfile" />
+          <br>
+          <input class="container__submit" type="submit" />
           </form>
         </div>
       </main>
